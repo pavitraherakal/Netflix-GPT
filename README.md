@@ -1,6 +1,16 @@
 # NETFLIX-GPT
- Create react app
- Taiwind css
+- Create react app
+- Taiwind css
+-  Header
+-  Routing
+ - Login form
+ - Sign Up form
+-  validation
+- useRef hook
+- firebase configuation
+- authentication
+- Deploying the project using google firebase
+
 
  # Features
  - Home Page
