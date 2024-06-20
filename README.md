@@ -10,6 +10,22 @@
 - firebase configuation
 - authentication
 - Deploying the project using google firebase
+- bugfix -redirect from login and browse page
+- unsubscribe to onAuthstateChanges callback
+-planning for browse page
+- adding main container
+- fetch now palying movies from tmdb
+- add the to redux store
+- fetch first movie
+- display name and overview of first movie
+- add vedio background by fetching trailor vedio from tmdb vedios
+- update the store by adding trailor vedio
+- fetch key and emed vedio from youtube 
+- secondary container
+- get the movielist and create hook each of it
+- add movie cards and image from tmdb cdn url(guides)
+- added scrolling for cards
+
 
 
  # Features
@@ -24,6 +40,17 @@
  -  Movie Suggessions
      - Movie-list xN
 
+      /*
+      maincontainer
+       -videobackground
+       -vidotittle
+      secondarycontainer
+        -movieslist
+        -movie cards
+      */
+
 - Netflix-GPT
    - search Bar
    - movie suggessions
+
+
