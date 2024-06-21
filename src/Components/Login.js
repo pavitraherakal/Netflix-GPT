@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile
 import { auth } from '../Utils/firebase';
 import { useDispatch } from 'react-redux';
 import { adduser } from '../Utils/userslice';
+import { BG_IMG_URL } from '../Utils/constant';
 
 
 const Login = () => {
@@ -67,7 +68,7 @@ const password=useRef(null);
     <div  className='my-max'>
       <Header />
       <div className=" absolute">
-    <img  src="https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/38258708-fcab-4fb2-8555-dc218ab75e84/GB-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+    <img  src={BG_IMG_URL}
     alt="backgroung-image" /> 
     </div>
     

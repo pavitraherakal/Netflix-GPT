@@ -25,7 +25,11 @@
 - get the movielist and create hook each of it
 - add movie cards and image from tmdb cdn url(guides)
 - added scrolling for cards
-
+- GpT search  button toggle
+  - Gpt search bar component
+  - gpt movie sugession component
+  - Multi Language feature in the app
+ - Integrate GPT API
 
 
  # Features

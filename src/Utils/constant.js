@@ -8,3 +8,6 @@ export const options = {
     }
   };
   export const IMG_CDN_URL='https://image.tmdb.org/t/p/w500';
+  export const BG_IMG_URL="https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/38258708-fcab-4fb2-8555-dc218ab75e84/GB-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+  export const Supported_Languages=[{identifier:"en",name:"English"},
+  {identifier:"hindi",name:"Hindi"} ,{identifier:"spanish",name:"Spanish"}];
