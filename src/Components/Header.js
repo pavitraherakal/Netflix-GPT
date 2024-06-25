@@ -61,7 +61,7 @@ dispatch(changelanguage(e.target.value))
           {Supported_Languages.map((language)=><option key={language.identifier} value={language.identifier} 
           >{language.name}</option>)} 
         </select>} 
-      <button className=' bg-purple-900 text-white px-2 mr-2 rounded' onClick={handleGptSearchClick}>GPT Search</button>
+      <button className=' bg-purple-900 text-white px-2 mr-2 rounded' onClick={handleGptSearchClick}>{showGPTSerach?"Home Page":"GPT Search"}</button>
        <img className=" w-8 h-8 mx-2" src={user?.photoURL} alt="phot"/>
        <button className=' text-white font-bold border-r-500' onClick={handleSignout}>Signout</button>
        </div>}

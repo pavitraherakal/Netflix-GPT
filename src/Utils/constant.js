@@ -11,3 +11,4 @@ export const options = {
   export const BG_IMG_URL="https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/38258708-fcab-4fb2-8555-dc218ab75e84/GB-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg";
   export const Supported_Languages=[{identifier:"en",name:"English"},
   {identifier:"hindi",name:"Hindi"} ,{identifier:"spanish",name:"Spanish"}];
+  export const OPENAI_APIKEY="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";

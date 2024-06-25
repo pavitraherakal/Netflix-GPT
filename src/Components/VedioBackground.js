@@ -25,7 +25,7 @@ dispatch(addTrailorVedio(trailor ));
         src={"https://www.youtube.com/embed/"+ firstTrailor?.key+'?autoplay=1&mute=1'}
         title="YouTube video player"  
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     referrerpolicy="strict-origin-when-cross-origin" allowFullScreen
+     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
     ></iframe>
 
     </div>
