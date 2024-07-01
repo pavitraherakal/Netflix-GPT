@@ -31,7 +31,7 @@ const password=useRef(null);
         // Signed up 
         const user = userCredential.user;
         updateProfile(auth.currentUser, {
-          displayName: name.current.value, photoURL: "https://avatars.githubusercontent.com/u/160643857?v=4"
+          displayName: name.current.value, photoURL: "https://occ-0-1106-300.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABXz4LMjJFidX8MxhZ6qro8PBTjmHbxlaLAbk45W1DXbKsAIOwyHQPiMAuUnF1G24CLi7InJHK4Ge4jkXul1xIW49Dr5S7fc.png?r=e6e"
         }).then(() => {
           const {uid,email,displayName,photoURL} = auth.currentUser;
           dispatch(adduser({uid:uid,email:email,displayName:displayName,photoURL:photoURL}));
